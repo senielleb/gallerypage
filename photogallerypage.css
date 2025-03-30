@@ -1,0 +1,115 @@
+body {
+    background-color: #faeee7;
+}
+header {
+    background-color: #33272a; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px 50px 50px 50px;
+}
+
+nav a {
+    color: #f2f7f5;
+    padding: 1em 1.5em;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.dropdown-box {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    background-color:  #33272a; 
+    font-size: 15px;
+    border-radius: 0px 0px 20px 20px;
+    border: 3px solid #f2f7f5;  /* Change the color as needed */
+    border-top: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 15px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f2f7f5;
+}
+
+.dropdown-box:hover .dropdown-menu {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #f2f7f5; 
+    color: #33272a;
+}
+
+.whole-heading {
+    margin: 10px 50px 50px 50px;
+    padding: 20px;
+    background-color: #33272a;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0.1, 0, 0, 0.1);
+}
+.title {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight:600px;
+    text-align: center;
+    margin: 20px;
+    color: #f2f7f5;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    gap:20px;
+}
+
+.gallery a {
+    text-decoration: none;
+    padding: 15px 15px 60px 20px;
+    background-color: white;
+    border: 2px solid #33272a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 0px #33272a; 
+
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid #33272a;
+}
+
+.go-to-top-button {
+    text-align: center;
+    margin-bottom:20px;
+    
+}
+.go-to-top-button a {
+    color:  #33272a ;
+    background-color: #ff8ba7;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #33272a; 
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 20px;    
+    box-shadow: 2px 5px 1px 0px #33272a; 
+}
